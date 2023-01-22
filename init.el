@@ -4,7 +4,9 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
- '(package-selected-packages '(markdown-mode evil))
+ '(evil-undo-system 'undo-tree)
+ '(global-undo-tree-mode t)
+ '(package-selected-packages '(undo-tree markdown-mode evil))
  '(save-place-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
