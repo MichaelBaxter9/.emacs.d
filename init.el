@@ -5,8 +5,9 @@
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
  '(evil-undo-system 'undo-tree)
+ '(fill-column 49)
  '(global-undo-tree-mode t)
- '(package-selected-packages '(undo-tree markdown-mode evil))
+ '(package-selected-packages '(magit undo-tree markdown-mode evil))
  '(save-place-mode t))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
